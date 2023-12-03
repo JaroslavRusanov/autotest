@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "training project autotest",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+  },
+  "author": "Iaroslav Rusanov sco.nuff@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JaroslavRusanov/autotest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JaroslavRusanov/autotest/issues"
+  },
+  "homepage": "https://github.com/JaroslavRusanov/autotest#readme"
+}
